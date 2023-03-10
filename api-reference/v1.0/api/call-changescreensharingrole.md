@@ -16,13 +16,10 @@ Allow applications to share screen content with the participants of a group call
 > **Note:** This is only supported for group calls that use App-Hosted Media.
 
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission marked as least privileged for this API. Use a higher privileged permission only if your app requires it. For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | Not Supported                               |
-| Delegated (personal Microsoft account) | Not Supported                               |
-| Application                            | Calls.AccessMedia.All                       |
+<!-- { "blockType": "permissions", "name": "call_changescreensharingrole" } -->
+[!INCLUDE [permissions-table](../includes/permissions/call-changescreensharingrole-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

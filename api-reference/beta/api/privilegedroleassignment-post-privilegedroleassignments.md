@@ -17,15 +17,12 @@ Namespace: microsoft.graph
 
 Use this API to create a new  [privilegedRoleAssignment](../resources/privilegedroleassignment.md).
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission marked as least privileged for this API. Use a higher privileged permission only if your app requires it. For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
 The requestor needs to have _Privileged Role Administrator_ role. 
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Directory.AccessAsUser.All    |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported. |
+<!-- { "blockType": "permissions", "name": "privilegedroleassignment_post_privilegedroleassignments" } -->
+[!INCLUDE [permissions-table](../includes/permissions/privilegedroleassignment-post-privilegedroleassignments-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

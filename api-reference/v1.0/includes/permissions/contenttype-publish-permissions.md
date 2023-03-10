@@ -1,0 +1,10 @@
+---
+description: "Automatically generated file. DO NOT MODIFY"
+---
+
+|Permission type|Least privileged permission|Higher privileged permissions|
+|:---|:---|:---|
+|Delegated (work or school account)|Sites.FullControl.All|Not supported.|
+|Delegated (personal Microsoft account)|Sites.FullControl.All|Not supported.|
+|Application|Sites.FullControl.All|Not supported.|
+

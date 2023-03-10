@@ -17,13 +17,10 @@ Generates a URI for an [accessReviewHistoryInstance](../resources/accessReviewHi
 
 ## Permissions
 
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission marked as least privileged for this API. Use a higher privileged permission only if your app requires it. For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|AccessReview.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|AccessReview.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "accessreviewhistoryinstance_generatedownloaduri" } -->
+[!INCLUDE [permissions-table](../includes/permissions/accessreviewhistoryinstance-generatedownloaduri-permissions.md)]
 
 To generate the link, the signed-in user must be either the creator of the associated review history definition, or assigned the *Global Administrator* or *Global Reader* [directory roles](/azure/active-directory/roles/permissions-reference).
 

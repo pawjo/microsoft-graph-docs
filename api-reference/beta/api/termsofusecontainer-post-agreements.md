@@ -15,13 +15,10 @@ Namespace: microsoft.graph
 
 Create a new [agreement](../resources/agreement.md) object.
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission marked as least privileged for this API. Use a higher privileged permission only if your app requires it. For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
-|Permission type                        | Permissions (from least to most privileged)              |
-|:--------------------------------------|:---------------------------------------------------------|
-|Delegated (work or school account)     | Agreement.ReadWrite.All |
-|Delegated (personal Microsoft account) | Not supported. |
-|Application                            | Not supported. |
+<!-- { "blockType": "permissions", "name": "termsofusecontainer_post_agreements" } -->
+[!INCLUDE [permissions-table](../includes/permissions/termsofusecontainer-post-agreements-permissions.md)]
 
 When calling on behalf of a user, the user needs to belong to one of the following directory roles. To learn more about directory roles, see [Azure AD built-in roles](/azure/active-directory/roles/permissions-reference):
 + Global Administrator

@@ -19,13 +19,10 @@ Retrieve a [submitted resource](../resources/educationsubmissionresource.md). On
 Resources will be available to a teacher or an application with application permissions after a student submits it, and will be available to the student after the teacher releases the submission. Note that teachers can leave notes in some resources.
 
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission marked as least privileged for this API. Use a higher privileged permission only if your app requires it. For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) |  EduAssignments.ReadBasic, EduAssignments.ReadWriteBasic, EduAssignments.Read, EduAssignments.ReadWrite  |
-|Delegated (personal Microsoft account) |  Not supported.  |
-|Application | EduAssignments.ReadBasic.All, EduAssignments.ReadWriteBasic.All, EduAssignments.Read.All, EduAssignments.ReadWrite.All | 
+<!-- { "blockType": "permissions", "name": "educationsubmittedsubmissionresource_get" } -->
+[!INCLUDE [permissions-table](../includes/permissions/educationsubmittedsubmissionresource-get-permissions.md)]
 
 ## HTTP request
 <!-- { "blockType": "ignored" } -->

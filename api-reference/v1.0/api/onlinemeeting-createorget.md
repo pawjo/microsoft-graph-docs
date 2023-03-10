@@ -16,13 +16,10 @@ Create an [onlineMeeting](../resources/onlinemeeting.md) object with a custom sp
 > **Note**: The meeting does not show on the user's calendar.
 
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission marked as least privileged for this API. Use a higher privileged permission only if your app requires it. For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
-| Permission type                        | Permissions (from least to most privileged) |
-|:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | OnlineMeetings.ReadWrite                    |
-| Delegated (personal Microsoft account) | Not supported.                               |
-| Application                            | OnlineMeetings.ReadWrite.All*                |
+<!-- { "blockType": "permissions", "name": "onlinemeeting_createorget" } -->
+[!INCLUDE [permissions-table](../includes/permissions/onlinemeeting-createorget-permissions.md)]
 
 > [!IMPORTANT]
 > \* Administrators must create an [application access policy](/graph/cloud-communication-online-meeting-application-access-policy) and grant it to a user, authorizing the app configured in the policy to create or get an online meeting with external ID on behalf of that user (user ID specified in the request path).

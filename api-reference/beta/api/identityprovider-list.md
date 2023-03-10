@@ -17,13 +17,10 @@ Retrieve a list of [identityProviders](../resources/identityprovider.md) objects
 
 ## Permissions
 
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission marked as least privileged for this API. Use a higher privileged permission only if your app requires it. For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account)|IdentityProvider.Read.All, IdentityProvider.ReadWrite.All|
-|Delegated (personal Microsoft account)| Not supported.|
-|Application|IdentityProvider.Read.All, IdentityProvider.ReadWrite.All|
+<!-- { "blockType": "permissions", "name": "identityprovider_list" } -->
+[!INCLUDE [permissions-table](../includes/permissions/identityprovider-list-permissions.md)]
 
 The work or school account needs to belong to one of the following roles:
 

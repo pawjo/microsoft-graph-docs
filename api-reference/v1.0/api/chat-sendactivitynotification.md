@@ -13,13 +13,10 @@ Namespace: microsoft.graph
 Send an activity feed notification in scope of a chat. For more details about sending notifications and the requirements for doing so, see [sending Teams activity notifications](/graph/teams-send-activityfeednotifications).
 
 ## Permissions
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission marked as least privileged for this API. Use a higher privileged permission only if your app requires it. For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|TeamsActivity.Send|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|TeamsActivity.Send|
+<!-- { "blockType": "permissions", "name": "chat_sendactivitynotification" } -->
+[!INCLUDE [permissions-table](../includes/permissions/chat-sendactivitynotification-permissions.md)]
 
 ## HTTP request
 

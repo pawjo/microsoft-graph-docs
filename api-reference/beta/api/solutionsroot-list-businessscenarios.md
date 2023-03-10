@@ -17,13 +17,10 @@ Get a list of all [businessScenario](../resources/businessscenario.md) objects i
 
 ## Permissions
 
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission marked as least privileged for this API. Use a higher privileged permission only if your app requires it. For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
-|Permission type|Permissions (from least to most privileged)|
-|:---|:---|
-|Delegated (work or school account)|BusinessScenarioConfig.Read.OwnedBy, BusinessScenarioConfig.ReadWrite.OwnedBy, BusinessScenarioConfig.Read.All, BusinessScenarioConfig.ReadWrite.All|
-|Delegated (personal Microsoft account)|Not supported.|
-|Application|BusinessScenarioConfig.Read.OwnedBy, BusinessScenarioConfig.ReadWrite.OwnedBy|
+<!-- { "blockType": "permissions", "name": "solutionsroot_list_businessscenarios" } -->
+[!INCLUDE [permissions-table](../includes/permissions/solutionsroot-list-businessscenarios-permissions.md)]
 
 ## HTTP request
 

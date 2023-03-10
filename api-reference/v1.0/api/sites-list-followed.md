@@ -16,13 +16,10 @@ List the [sites](../resources/site.md) that have been followed by the signed in 
 
 ## Permissions
 
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission marked as least privileged for this API. Use a higher privileged permission only if your app requires it. For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
-|Permission type      | Permissions (from least to most privileged)              |
-|:--------------------|:---------------------------------------------------------|
-|Delegated (work or school account) | Sites.Read.All, Sites.ReadWrite.All  |
-|Delegated (personal Microsoft account) | Not supported.    |
-|Application | Not supported.    |
+<!-- { "blockType": "permissions", "name": "sites_list_followed" } -->
+[!INCLUDE [permissions-table](../includes/permissions/sites-list-followed-permissions.md)]
 
 ## HTTP request
 

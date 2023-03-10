@@ -22,13 +22,10 @@ In either scenario, the registrant will receive an email notification that conta
 
 ## Permissions
 
-One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
+Choose the permission marked as least privileged for this API. Use a higher privileged permission only if your app requires it. For details about delegated and application permissions, see [Permission types](/graph/permissions-overview#permission-types). To learn more about these permissions, see the [permissions reference](/graph/permissions-reference).
 
-| Permission type | Permissions (from least to most privileged) |
-|:----------------|:--------------------------------------------|
-| Delegated (work or school account) | OnlineMeetings.ReadWrite |
-| Delegated (personal Microsoft account) | Not supported. |
-| Application | OnlineMeetings.Read.All |
+<!-- { "blockType": "permissions", "name": "meetingregistration_post_registrants" } -->
+[!INCLUDE [permissions-table](../includes/permissions/meetingregistration-post-registrants-permissions.md)]
 
 > [!TIP]
 >
