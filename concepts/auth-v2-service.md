@@ -127,7 +127,7 @@ You send a POST request to the `/token` identity platform endpoint to acquire an
 ```
 // Line breaks are for legibility only.
 
-POST https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token HTTP/1.1
+POST https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token
 Host: login.microsoftonline.com
 Content-Type: application/x-www-form-urlencoded
 
